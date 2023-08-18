@@ -16,7 +16,7 @@ function Home2() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple"> Jackman Osila Galiste</span>
+            Hi Everyone, I am <span className="purple"> Jackman Osila Galiste </span>
             from <span className="purple"> Pangasinan,Philippines.</span>
             <br />  I am currently in my third year of college pursuing a Bachelor's degree in Information Technology <br />
             with a major in Website Development. 
@@ -26,15 +26,7 @@ function Home2() {
             <br />  
             I have a deep passion for crafting dynamic and engaging online experiences that seamlessly <br />blend creativity and functionality.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Web Developer
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> UI Designer
-            </li>
-            
-          </ul>
+          
 
         </blockquote>
       </Card.Body>
@@ -49,7 +41,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href=""
+                  href="https://github.com/Unstoppajack"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -57,26 +49,8 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+             
+              
             </ul>
           </Col>
         </Row>

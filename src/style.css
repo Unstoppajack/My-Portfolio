@@ -145,10 +145,81 @@ button:focus {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
+    margin: 0;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
+    margin: 0;
   }
+  /* Media Queries */
+@media (max-width: 767px) {
+  /* Navbar styles for small screens */
+  .navbar {
+    padding: 0.5rem 1rem !important;
+  }
+  .navbar-toggler span {
+    height: 3px !important;
+    width: 22px !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+  }
+
+  /* Home section styles for small screens */
+  .home-header {
+    padding-top: 50px !important;
+  }
+  .main-name {
+    font-size: 2.2em !important;
+  }
+  .Typewriter__wrapper {
+    font-size: 1.8em !important;
+  }
+
+  /* About section styles for small screens */
+  .about-section {
+    padding-top: 100px !important;
+  }
+  .tech-icons {
+    font-size: 3.5em !important;
+    margin: 10px !important;
+  }
+
+  /* Resume section styles for small screens */
+  .resume-section {
+    padding-top: 70px !important;
+  }
+  .resume-left,
+  .resume-right {
+    padding: 0 !important;
+  }
+  .resume .resume-title {
+    font-size: 1.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  /* Projects section styles for small screens */
+  .project-section {
+    padding-top: 100px !important;
+  }
+  .project-heading {
+    font-size: 2em !important;
+    padding-top: 10px !important;
+  }
+  .project-card {
+    padding: 40px !important;
+  }
+  .card-img-top {
+    padding: 15px !important;
+  }
+
+  /* Footer styles for small screens */
+  .footer-copywright {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
 }
 .navbar-brand {
   color: rgb(250, 250, 250) !important;
@@ -395,14 +466,14 @@ button:focus {
 }
 
 .icon-colour {
-  color: #000000 !important;
+  color: #6c439b !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgba(159, 88, 206, 0.158);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -569,6 +640,7 @@ button:focus {
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
+
 
 @media (max-width: 767px) {
   .tech-icons {
